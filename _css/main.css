@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/*   Main   */
+header { position: fixed; width: 100%; z-index: 10; }
+header .wrap { width: 100%; max-width: 1170px; height: 100px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto; }
+header .wrap h1 { width: 200px; }
+header .wrap h1 a { display: block; height: 26px; width: 100%; background: url("../_images/main/ci.png") no-repeat left top; text-indent: -9999px; }
+header .wrap ul { width: 50%; display: flex; justify-content: center; align-items: center; }
+header .wrap ul li { width: 33.3%; text-align: center; font-size: 18px; color: #111; }
+header .wrap .mobile-menu { display: none; }
+header.on { background: #fff; }
+header.on h1 a { background-position: left bottom; }
+
+section .visual { padding-top: 100px; position: relative; height: 840px; }
+section .visual:before { display: block; position: absolute; width: 50%; background: #f3506f; height: 840px; left: 0; top: 0; z-index: -1; content: ""; }
+section .visual .wrap { width: 100%; max-width: 1170px; margin: 0 auto; position: relative; }
+section .visual .wrap .slogan { position: absolute; top: 150px; left: 100px; z-index: 2; }
+section .visual .wrap .slogan .main-text { font-size: 72px; color: #fff; font-family: 'Montserrat'; }
+section .visual .wrap .slogan .text { font-size: 36px; color: #fff; margin-top: 20px; font-weight: 100; }
+section .visual .wrap .image-wrap { position: absolute; right: 0; top: 0; width: 74.35%; }
+section .visual .wrap .image-wrap .image img { width: 100%; }
+section .visual .wrap .image-wrap ul { display: flex; justify-content: flex-end; align-items: center; }
+section .visual .wrap .image-wrap ul li { width: 70px; height: 70px; font-size: 18px; font-weight: 100; text-align: center; line-height: 70px; cursor: pointer; }
+section .visual .wrap .image-wrap ul li.prev { background: url("../_images/main/btn_prev.png") no-repeat center/contain; }
+section .visual .wrap .image-wrap ul li.next { background: url("../_images/main/btn_next.png") no-repeat center/contain; }
+section .situation { text-align: center; }
+section .situation .title { font-size: 48px; color: #111; font-weight: 500; letter-spacing: -0.75px; }
+section .situation .sub-title { font-size: 24px; color: #111; font-weight: 500; letter-spacing: -0.75px; margin-top: 90px; }
+section .situation p { font-size: 16px; color: #454545; line-height: 30px; margin-top: 30px; }
+section .situation img { margin-top: 200px; }
+section .xamigo { margin: 250px auto 0; width: 100%; max-width: 1170px; }
+section .xamigo .wrap { border-top: 1px solid #9696a1; border-bottom: 1px solid #9696a1; height: 1720px; position: relative; }
+section .xamigo .wrap .title-wrap { padding: 60px 0 0 60px; position: absolute; top: 0; left: 50%; }
+section .xamigo .wrap .title-wrap .key { color: #9859f4; font-size: 24px; text-transform: uppercase; font-weight: 600; }
+section .xamigo .wrap .title-wrap .title { margin-top: 20px; font-size: 50px; line-height: 60px; font-weight: 100; color: #222; letter-spacing: -0.75px; }
+section .xamigo .wrap .title-wrap .title strong { font-weight: 500; color: #222; }
+section .xamigo .wrap .item { position: absolute; }
+section .xamigo .wrap .item .text-wrap { position: absolute; left: 0; bottom: -40px; background: #fff; padding: 40px 60px 0 0; }
+section .xamigo .wrap .item .text-wrap .key { color: #f04250; font-size: 16px; text-transform: uppercase; font-weight: 800; }
+section .xamigo .wrap .item .text-wrap .title { font-size: 28px; line-height: 32px; font-weight: 100; margin-top: 25px; color: #222; font-weight: 700; text-transform: uppercase; }
+section .xamigo .wrap .item .text-wrap .text { font-size: 16px; color: #666; margin-top: 15px; line-height: 24px; }
+section .xamigo .wrap .item.one { top: -60px; left: 0; background: url(../_images/main/item1.png) no-repeat center; height: 640px; width: 50%; }
+section .xamigo .wrap .item.one .text-wrap { padding-right: 90px; }
+section .xamigo .wrap .item.two { top: 450px; right: 0; height: 470px; width: 31.6239%; background: url(../_images/main/item2.png) no-repeat center; }
+section .xamigo .wrap .item.two .text-wrap { left: -30px; padding-right: 50px; }
+section .xamigo .wrap .item.three { top: 740px; left: 0; height: 470px; width: 40.1709%; background: url(../_images/main/item3.png) no-repeat center; }
+section .xamigo .wrap .item.three .text-wrap { bottom: -90px; }
+section .xamigo .wrap .item.four { top: 1130px; right: 0; background: url(../_images/main/item4.png) no-repeat center; height: 640px; width: 50%; }
+section .xamigo .wrap .item.four .text-wrap { padding-right: 90px; padding-left: 30px; left: -60px; }
+section .contact { background: #f1f1f1; margin-top: 200px; padding-bottom: 60px; }
+section .contact .wrap { width: 100%; max-width: 620px; margin: 0 auto; text-align: center; }
+section .contact .wrap .title { font-size: 48px; color: #111; font-weight: 500; letter-spacing: -0.75px; padding-top: 150px; padding-bottom: 100px; }
+section .contact .wrap ul { display: flex; justify-content: space-between; align-items: center; text-align: left; }
+section .contact .wrap ul li { margin-bottom: 10px; }
+section .contact .wrap ul li:nth-child(1) { width: 120px; font-size: 18px; color: #111; }
+section .contact .wrap ul li:nth-child(2) { width: calc(100% - 120px); font-size: 18px; color: #111; }
+section .contact .wrap ul li input[type="text"], section .contact .wrap ul li textarea { border-radius: 5px; border: 1px solid #dedede; height: 50px; width: 100%; padding: 10px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+section .contact .wrap ul li textarea { height: 150px; }
+section .contact .wrap .btn-wrap { text-align: center; }
+section .contact .wrap .btn-wrap a { display: inline-block; width: 185px; text-align: center; background: #2d2e44; color: #fff; font-size: 18px; font-weight: 500; line-height: 50px; margin-top: 50px; border-radius: 5px; margin-left: 110px; }
+
+.filebox input[type="file"] { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+
+.filebox label { display: inline-block; color: #fff; font-size: 16px; line-height: 50px; vertical-align: middle; background-color: #f04250; cursor: pointer; border-radius: 5px; width: 110px; text-align: center; }
+
+.filebox .upload-name { display: inline-block; vertical-align: middle; border-radius: 5px; border: 1px solid #dedede; height: 50px; width: calc(100% - 116px); padding: 10px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-appearance: none; /* 네이티브 외형 감추기 */ -moz-appearance: none; appearance: none; }
+
+footer { background: #fff; }
+footer .wrap { width: 100%; max-width: 1170px; margin: 0 auto; line-height: 70px; font-size: 12px; font-weight: 700; color: #767676; }
+
+.mobile-only { display: none; }
+
+@media screen and (max-width: 1170px) { header .wrap { padding: 0 20px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+  section .visual { height: 71.79vw; }
+  section .visual:before { height: 71.79vw; }
+  section .visual .wrap .slogan { top: 12.82vw; left: 8.54vw; }
+  section .visual .wrap .slogan .main-text { font-size: 6.15vw; }
+  section .visual .wrap .slogan .text { font-size: 3.07vw; }
+  section .xamigo { padding: 0 20px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+  section .xamigo .wrap .title-wrap { padding: 40px 0 0 40px; }
+  section .xamigo .wrap .title-wrap .key { font-size: 2.05vw; }
+  section .xamigo .wrap .title-wrap .title { margin-top: 1.70vw; font-size: 4.27vw; line-height: 5.12vw; } }
+@media screen and (max-width: 960px) { .mobile-only { display: block; }
+  .mobile-hide { display: none; }
+  header .wrap { padding: 0; background: #fff; height: 60px; }
+  header .wrap h1 { width: 137px; height: 60px; }
+  header .wrap h1 a { height: 100%; width: 100%; background: url("../_images/main/ci_mobile.png") no-repeat left center/contain; }
+  header .wrap ul { width: 100%; display: none; position: absolute; left: 0; top: 60px; background: #fff; border-bottom: 1px solid #dedede; }
+  header .wrap ul li { width: 100%; text-align: center; font-size: 14px; line-height: 50px; border-top: 1px solid #dedede; }
+  header .wrap ul li a { display: block; width: 100%; height: 100%; }
+  header .wrap .mobile-menu { display: block; width: 60px; height: 60px; background: url("../_images/main/btn_mobile_menu.png") no-repeat left top/60px; }
+  header .wrap .mobile-menu.on { background-position: left bottom; }
+  section .visual { padding-top: 60px; height: auto; }
+  section .visual:before { display: none; }
+  section .visual .wrap .slogan { top: 25.33vw; left: 10.66vw; }
+  section .visual .wrap .slogan .main-text { font-size: 12.26vw; }
+  section .visual .wrap .slogan .text { font-size: 6.4vw; line-height: 1.2; }
+  section .visual .wrap .image-wrap { position: relative; width: 100%; }
+  section .visual .wrap .image-wrap ul { justify-content: center; }
+  section .visual .wrap .image-wrap ul li { width: 60px; height: 60px; font-size: 15px; line-height: 60px; }
+  section .situation { margin-top: 8vw; }
+  section .situation .title { font-size: 9.6vw; }
+  section .situation .sub-title { font-size: 6vw; margin-top: 15vw; text-align: center; }
+  section .situation p { font-size: 4vw; line-height: 1.6; margin-top: 10vw; padding: 0 21px; text-align: left; }
+  section .situation img { margin-top: 16vw; }
+  section .xamigo { padding: 20vw 21px 0; margin: 0; }
+  section .xamigo .wrap { border: none; height: auto; }
+  section .xamigo .wrap .title-wrap { padding: 8vw 0 10.66vw 0; position: relative; top: 0; left: 0; text-align: center; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+  section .xamigo .wrap .title-wrap .key { font-size: 4.8vw; }
+  section .xamigo .wrap .title-wrap .title { margin-top: 5.33vw; font-size: 8vw; line-height: 9.6vw; }
+  section .xamigo .wrap .item { position: relative; background: none !important; height: auto !important; }
+  section .xamigo .wrap .item:before { display: block; content: ""; padding-top: 66.66vw; }
+  section .xamigo .wrap .item .text-wrap { position: relative; left: 0; bottom: 0; background: #fff; padding: 4vw; text-align: center; padding-bottom: 15vw; }
+  section .xamigo .wrap .item .text-wrap .key { font-size: 4.8vw; }
+  section .xamigo .wrap .item .text-wrap .title { font-size: 6.4vw; line-height: 1; margin-top: 5.33vw; }
+  section .xamigo .wrap .item .text-wrap .text { font-size: 3.2vw; margin-top: 4vw; line-height: 4.8vw; }
+  section .xamigo .wrap .item.one { top: 0; left: 0; width: 100%; }
+  section .xamigo .wrap .item.one:before { background: url("../_images/main/item1_m.png") no-repeat center/cover; }
+  section .xamigo .wrap .item.one .text-wrap { padding-right: 4vw; }
+  section .xamigo .wrap .item.two { top: 0; right: 0; width: 100%; }
+  section .xamigo .wrap .item.two .text-wrap { left: 0; padding-right: 4vw; }
+  section .xamigo .wrap .item.two:before { background: url("../_images/main/item2_m.png") no-repeat center/cover; }
+  section .xamigo .wrap .item.three { top: 0; left: 0; width: 100%; }
+  section .xamigo .wrap .item.three .text-wrap { bottom: 0; }
+  section .xamigo .wrap .item.three:before { background: url("../_images/main/item3_m.png") no-repeat center/cover; }
+  section .xamigo .wrap .item.four { top: 0; right: 0; width: 100%; }
+  section .xamigo .wrap .item.four .text-wrap { left: 0; padding-right: 8vw; }
+  section .xamigo .wrap .item.four:before { background: url("../_images/main/item4_m.png") no-repeat center/cover; }
+  section .contact { margin-top: 10vw; padding-bottom: 16vw; }
+  section .contact .wrap { width: 100%; padding: 0 21px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+  section .contact .wrap .title { font-size: 9.6vw; padding-top: 20vw; padding-bottom: 10vw; }
+  section .contact .wrap ul { display: block; }
+  section .contact .wrap ul li { margin-bottom: 2.66vw; }
+  section .contact .wrap ul li:nth-child(1) { width: 100%; font-size: 4vw; font-weight: 500; padding-top: 4vw; }
+  section .contact .wrap ul li:nth-child(2) { width: 100%; }
+  section .contact .wrap ul li input[type="text"], section .contact .wrap ul li textarea { height: 35px; -moz-appearance: none; -webkit-appearance: none; }
+  section .contact .wrap ul li textarea { height: 100px; }
+  section .contact .wrap .btn-wrap { text-align: center; }
+  section .contact .wrap .btn-wrap a { margin-left: 0; margin-top: 20px; }
+  .filebox label { font-size: 14px; line-height: 35px; width: 80px; }
+  .filebox .upload-name { line-height: 33px; height: 35px; width: calc(100% - 86px); }
+  footer .wrap { line-height: 60px; padding-left: 21px; } }
