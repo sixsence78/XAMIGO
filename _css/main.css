@@ -11,12 +11,12 @@ header.on { background: #fff; }
 header.on h1 a { background-position: left bottom; }
 
 section .visual { padding-top: 100px; position: relative; height: 840px; }
-section .visual:before { display: block; position: absolute; width: 50%; background: #f3506f; height: 840px; left: 0; top: 0; z-index: -1; content: ""; }
+section .visual:before { display: block; position: absolute; width: 50%; background: #f3506f; height: 740px; left: 0; top: 0; z-index: -1; content: ""; }
 section .visual .wrap { width: 100%; max-width: 1170px; margin: 0 auto; position: relative; }
-section .visual .wrap .slogan { position: absolute; top: 150px; left: 100px; z-index: 2; }
+section .visual .wrap .slogan { position: absolute; top: 150px; left: 0; z-index: 2; }
 section .visual .wrap .slogan .main-text { font-size: 72px; color: #fff; font-family: 'Montserrat'; }
-section .visual .wrap .slogan .text { font-size: 36px; color: #fff; margin-top: 20px; font-weight: 100; }
-section .visual .wrap .image-wrap { position: absolute; right: 0; top: 0; width: 74.35%; }
+section .visual .wrap .slogan .text { font-size: 30px; color: #fff; margin-top: 20px; font-weight: 100; }
+section .visual .wrap .image-wrap { position: absolute; left: 50%; top: 0; margin-left: -85px; width: 1045px; }
 section .visual .wrap .image-wrap .image img { width: 100%; }
 section .visual .wrap .image-wrap ul { display: flex; justify-content: flex-end; align-items: center; }
 section .visual .wrap .image-wrap ul li { width: 70px; height: 70px; font-size: 18px; font-weight: 100; text-align: center; line-height: 70px; cursor: pointer; }
@@ -72,9 +72,9 @@ footer .wrap { width: 100%; max-width: 1170px; margin: 0 auto; line-height: 70px
 @media screen and (max-width: 1170px) { header .wrap { padding: 0 20px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
   section .visual { height: 71.79vw; }
   section .visual:before { height: 71.79vw; }
-  section .visual .wrap .slogan { top: 12.82vw; left: 8.54vw; }
+  section .visual .wrap .slogan { top: 12.82vw; left: 4.54vw; }
   section .visual .wrap .slogan .main-text { font-size: 6.15vw; }
-  section .visual .wrap .slogan .text { font-size: 3.07vw; }
+  section .visual .wrap .slogan .text { font-size: 2.56vw; }
   section .xamigo { padding: 0 20px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
   section .xamigo .wrap .title-wrap { padding: 40px 0 0 40px; }
   section .xamigo .wrap .title-wrap .key { font-size: 2.05vw; }
@@ -92,15 +92,14 @@ footer .wrap { width: 100%; max-width: 1170px; margin: 0 auto; line-height: 70px
   section .visual { padding-top: 60px; height: auto; }
   section .visual:before { display: none; }
   section .visual .wrap .slogan { top: 25.33vw; left: 10.66vw; }
-  section .visual .wrap .slogan .main-text { font-size: 12.26vw; }
+  section .visual .wrap .slogan .main-text { font-size: 12.26vw; color: #f63c69; }
   section .visual .wrap .slogan .text { font-size: 6.4vw; line-height: 1.2; }
-  section .visual .wrap .image-wrap { position: relative; width: 100%; }
-  section .visual .wrap .image-wrap ul { justify-content: center; }
-  section .visual .wrap .image-wrap ul li { width: 60px; height: 60px; font-size: 15px; line-height: 60px; }
+  section .visual .wrap .image-wrap { position: relative; width: 100%; left: 0; margin: 0; }
+  section .visual .wrap .image-wrap img { width: 100%; }
   section .situation { margin-top: 8vw; }
   section .situation .title { font-size: 9.6vw; }
   section .situation .sub-title { font-size: 6vw; margin-top: 15vw; text-align: center; }
-  section .situation p { font-size: 4vw; line-height: 1.6; margin-top: 10vw; padding: 0 21px; text-align: left; }
+  section .situation p { font-size: 4vw; line-height: 1.6; margin-top: 10vw; padding: 0 21px; }
   section .situation img { margin-top: 16vw; }
   section .xamigo { padding: 20vw 21px 0; margin: 0; }
   section .xamigo .wrap { border: none; height: auto; }

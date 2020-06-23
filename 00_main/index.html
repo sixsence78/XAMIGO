@@ -19,7 +19,6 @@
 <script type="text/javascript" src="../_js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="../_js/jquery.js"></script>
 <script type="text/javascript" src="../_js/aos.js"></script>
-<script type="text/javascript" src="../_js/swiper.js"></script>
 </head>
 <body>
 
@@ -45,25 +44,7 @@
                     <p class="text">세계 최초 전자인증서 엔진 <br class="mobile-only">탑재 브라우저</p>
                 </div>
                 <div class="image-wrap swiper-container">
-                    <div class="image swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="../_images/main/visual_1.jpg" class="mobile-hide" alt=""/>
-                            <img src="../_images/main/visual_1_m.jpg" class="mobile-only" alt=""/>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="../_images/main/visual_1.jpg" class="mobile-hide" alt=""/>
-                            <img src="../_images/main/visual_1_m.jpg" class="mobile-only" alt=""/>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="../_images/main/visual_1.jpg" class="mobile-hide" alt=""/>
-                            <img src="../_images/main/visual_1_m.jpg" class="mobile-only" alt=""/>
-                        </div>
-                    </div>
-                    <ul>
-                        <li class="prev swiper-button-prev"></li>
-                        <li class="swiper-pagination"></li>
-                        <li class="next swiper-button-next"></li>
-                    </ul>
+                    <img src="../_images/main/visual.png" class="mobile-hide" alt=""/>
                 </div>
             </div>
         </div>
@@ -163,21 +144,6 @@
         <div class="wrap">Copyright Tilkoblet Corp. All Rights Reserved.</div>
     </footer>
     <script>
-    var swiper = new Swiper('.swiper-container', {
-      loop: true,
-      autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'fraction',
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
         
     AOS.init({
 		easing: 'ease-in-sine'

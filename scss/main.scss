@@ -62,7 +62,7 @@ section{
             position: absolute;
             width: 50%;
             background: #f3506f;
-            height: 840px;
+            height: 740px;
             left: 0;
             top: 0;
             z-index: -1;
@@ -76,7 +76,7 @@ section{
             .slogan{
                 position: absolute;
                 top: 150px;
-                left: 100px;
+                left: 0;
                 z-index: 2;
                 .main-text{
                     font-size: 72px;
@@ -84,7 +84,7 @@ section{
                     font-family: 'Montserrat';
                 }
                 .text{
-                    font-size: 36px;
+                    font-size: 30px;
                     color: #fff;
                     margin-top: 20px;
                     font-weight: 100;
@@ -92,9 +92,10 @@ section{
             }
             .image-wrap{
                 position: absolute;
-                right: 0;
+                left: 50%;
                 top: 0;
-                width: 74.35%;
+                margin-left: -85px;
+                width: 1045px;
                 .image{
                     img{
                         width: 100%;
@@ -399,12 +400,12 @@ footer{
             .wrap{
                 .slogan{
                     top: 12.82vw;
-                    left: 8.54vw;
+                    left: 4.54vw;
                     .main-text{
                         font-size: 6.15vw;
                     }
                     .text{
-                        font-size: 3.07vw;
+                        font-size: 2.56vw;
                     }
                 }
             }
@@ -498,6 +499,7 @@ footer{
                     left: 10.66vw;
                     .main-text{
                         font-size: 12.26vw;
+                        color: #f63c69;
                     }
                     .text{
                         font-size: 6.4vw;
@@ -507,14 +509,10 @@ footer{
                 .image-wrap{
                     position: relative;
                     width: 100%;
-                    ul{
-                        justify-content: center;
-                        li{
-                            width: 60px;
-                            height: 60px;
-                            font-size: 15px;
-                            line-height: 60px;
-                        }
+                    left: 0;
+                    margin: 0;
+                    img{
+                        width: 100%;
                     }
                 }
             }
@@ -534,7 +532,6 @@ footer{
                 line-height: 1.6;
                 margin-top: 10vw;
                 padding: 0 21px;
-                text-align: left;
             }
             img{
                 margin-top: 16vw;
